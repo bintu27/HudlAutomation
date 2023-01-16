@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="27" passed="27" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-16T01:08:19 GMT" name="Surefire suite" finished-at="2023-01-16T01:10:38 GMT" duration-ms="139209">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@27ae2fd0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-01-16T01:08:19 GMT" name="Surefire test" finished-at="2023-01-16T01:10:38 GMT" duration-ms="139209">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@27ae2fd0]" started-at="2023-01-16T01:08:19 GMT" name="setUpClass" finished-at="2023-01-16T01:08:19 GMT" duration-ms="657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7cbe3a05]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@27ae2fd0]" started-at="2023-01-16T01:08:19 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T01:08:24 GMT" duration-ms="4413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify successful API login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User should only be able to login successfully with valid credentials for Api request]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@27ae2fd0]" started-at="2023-01-16T01:08:24 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T01:08:25 GMT" duration-ms="881" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user should get error in API response with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User should only be able to login successfully with valid credentials for Api request]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@27ae2fd0]" started-at="2023-01-16T01:08:25 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T01:08:26 GMT" duration-ms="916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user should get error in API response with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User should only be able to login successfully with valid credentials for Api request]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@27ae2fd0]" started-at="2023-01-16T01:08:26 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T01:08:26 GMT" duration-ms="782" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user should get error in API response with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User should only be able to login successfully with valid credentials for Api request]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@27ae2fd0]" started-at="2023-01-16T01:08:26 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T01:08:39 GMT" duration-ms="12899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify valid user should be able to log in and log out"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User should be able to login into web application only with valid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@27ae2fd0]" started-at="2023-01-16T01:08:39 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T01:08:44 GMT" duration-ms="4251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user should not be able to log in without entering any credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User should be able to login into web application only with valid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@27ae2fd0]" started-at="2023-01-16T01:08:44 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T01:08:48 GMT" duration-ms="4071" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify invalid user should not be able to login via SSO"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User should be able to login into web application only with valid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@27ae2fd0]" started-at="2023-01-16T01:08:48 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T01:08:51 GMT" duration-ms="3145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user should not be able to login with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User should be able to login into web application only with valid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@27ae2fd0]" started-at="2023-01-16T01:08:51 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T01:08:54 GMT" duration-ms="3247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user should not be able to login with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User should be able to login into web application only with valid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@27ae2fd0]" started-at="2023-01-16T01:08:54 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T01:08:57 GMT" duration-ms="3074" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user should not be able to login with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User should be able to login into web application only with valid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@27ae2fd0]" started-at="2023-01-16T01:08:57 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T01:09:30 GMT" duration-ms="33231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user remember me store values"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User should be able to login into web application only with valid credentials]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@27ae2fd0]" started-at="2023-01-16T01:09:30 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T01:09:35 GMT" duration-ms="4851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user should be able to submit request to reset password from web application for valid user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User should be able to reset login password for valid userName]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@27ae2fd0]" started-at="2023-01-16T01:09:35 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T01:10:09 GMT" duration-ms="34327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user should not be able to submit request to reset password from web application for invalid user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User should be able to reset login password for valid userName]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@27ae2fd0]" started-at="2023-01-16T01:10:09 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T01:10:11 GMT" duration-ms="1222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user should be able to submit Api request to reset password for valid user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User should be able to reset login password for valid userName]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@27ae2fd0]" started-at="2023-01-16T01:10:11 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T01:10:11 GMT" duration-ms="705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user should be able to submit Api request to reset password for invalid user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User should be able to reset login password for valid userName]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@27ae2fd0]" started-at="2023-01-16T01:10:11 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T01:10:15 GMT" duration-ms="3645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate client side against XSS vulnerabilities"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Application security test against XSS & SQL Injection vulnerabilities]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@27ae2fd0]" started-at="2023-01-16T01:10:15 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T01:10:18 GMT" duration-ms="3298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate client side against XSS vulnerabilities"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Application security test against XSS & SQL Injection vulnerabilities]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@27ae2fd0]" started-at="2023-01-16T01:10:18 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T01:10:22 GMT" duration-ms="3512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate client side against XSS vulnerabilities"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Application security test against XSS & SQL Injection vulnerabilities]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@27ae2fd0]" started-at="2023-01-16T01:10:22 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T01:10:25 GMT" duration-ms="3240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate client side against SQL Injection vulnerabilities"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Application security test against XSS & SQL Injection vulnerabilities]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@27ae2fd0]" started-at="2023-01-16T01:10:25 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T01:10:29 GMT" duration-ms="3371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate client side against SQL Injection vulnerabilities"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Application security test against XSS & SQL Injection vulnerabilities]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@27ae2fd0]" started-at="2023-01-16T01:10:29 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T01:10:32 GMT" duration-ms="3179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate client side against SQL Injection vulnerabilities"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Application security test against XSS & SQL Injection vulnerabilities]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@27ae2fd0]" started-at="2023-01-16T01:10:32 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T01:10:33 GMT" duration-ms="1092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate server side against XSS vulnerabilities"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Application security test against XSS & SQL Injection vulnerabilities]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@27ae2fd0]" started-at="2023-01-16T01:10:33 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T01:10:34 GMT" duration-ms="905" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate server side against XSS vulnerabilities"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Application security test against XSS & SQL Injection vulnerabilities]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@27ae2fd0]" started-at="2023-01-16T01:10:34 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T01:10:35 GMT" duration-ms="836" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate server side against XSS vulnerabilities"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Application security test against XSS & SQL Injection vulnerabilities]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@27ae2fd0]" started-at="2023-01-16T01:10:35 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T01:10:36 GMT" duration-ms="1084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate server side against SQL Injection vulnerabilities"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Application security test against XSS & SQL Injection vulnerabilities]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@27ae2fd0]" started-at="2023-01-16T01:10:36 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T01:10:36 GMT" duration-ms="745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate server side against SQL Injection vulnerabilities"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Application security test against XSS & SQL Injection vulnerabilities]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@27ae2fd0]" started-at="2023-01-16T01:10:36 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-16T01:10:37 GMT" duration-ms="821" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate server side against SQL Injection vulnerabilities"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Application security test against XSS & SQL Injection vulnerabilities]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@27ae2fd0]" started-at="2023-01-16T01:10:37 GMT" name="tearDownClass" finished-at="2023-01-16T01:10:38 GMT" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

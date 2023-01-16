@@ -1,0 +1,215 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>27/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jan 16 01:08:19 GMT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>139 seconds (139209 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate client side against XSS vulnerabilities", "Optional[Application security test against XSS & SQL Injection vulnerabilities]"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@27ae2fd0</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify valid user should be able to log in and log out", "Optional[User should be able to login into web application only with valid credentials]"</td>
+<td></td>
+<td>12</td>
+<td>runner.TestRunner@27ae2fd0</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate server side against XSS vulnerabilities", "Optional[Application security test against XSS & SQL Injection vulnerabilities]"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@27ae2fd0</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user should not be able to submit request to reset password from web application for invalid user", "Optional[User should be able to reset login password for valid userName]"</td>
+<td></td>
+<td>34</td>
+<td>runner.TestRunner@27ae2fd0</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate server side against SQL Injection vulnerabilities", "Optional[Application security test against XSS & SQL Injection vulnerabilities]"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@27ae2fd0</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate client side against SQL Injection vulnerabilities", "Optional[Application security test against XSS & SQL Injection vulnerabilities]"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@27ae2fd0</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify successful API login with valid credentials", "Optional[User should only be able to login successfully with valid credentials for Api request]"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestRunner@27ae2fd0</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user should get error in API response with invalid credentials", "Optional[User should only be able to login successfully with valid credentials for Api request]"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@27ae2fd0</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate server side against XSS vulnerabilities", "Optional[Application security test against XSS & SQL Injection vulnerabilities]"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@27ae2fd0</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user should get error in API response with invalid credentials", "Optional[User should only be able to login successfully with valid credentials for Api request]"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@27ae2fd0</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user should be able to submit request to reset password from web application for valid user", "Optional[User should be able to reset login password for valid userName]"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestRunner@27ae2fd0</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user remember me store values", "Optional[User should be able to login into web application only with valid credentials]"</td>
+<td></td>
+<td>33</td>
+<td>runner.TestRunner@27ae2fd0</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user should not be able to login with invalid credentials", "Optional[User should be able to login into web application only with valid credentials]"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@27ae2fd0</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate client side against XSS vulnerabilities", "Optional[Application security test against XSS & SQL Injection vulnerabilities]"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@27ae2fd0</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate client side against XSS vulnerabilities", "Optional[Application security test against XSS & SQL Injection vulnerabilities]"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@27ae2fd0</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user should be able to submit Api request to reset password for invalid user", "Optional[User should be able to reset login password for valid userName]"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@27ae2fd0</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate server side against XSS vulnerabilities", "Optional[Application security test against XSS & SQL Injection vulnerabilities]"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@27ae2fd0</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate server side against SQL Injection vulnerabilities", "Optional[Application security test against XSS & SQL Injection vulnerabilities]"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@27ae2fd0</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate client side against SQL Injection vulnerabilities", "Optional[Application security test against XSS & SQL Injection vulnerabilities]"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@27ae2fd0</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate client side against SQL Injection vulnerabilities", "Optional[Application security test against XSS & SQL Injection vulnerabilities]"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@27ae2fd0</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user should be able to submit Api request to reset password for valid user", "Optional[User should be able to reset login password for valid userName]"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@27ae2fd0</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate server side against SQL Injection vulnerabilities", "Optional[Application security test against XSS & SQL Injection vulnerabilities]"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@27ae2fd0</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user should not be able to log in without entering any credentials", "Optional[User should be able to login into web application only with valid credentials]"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestRunner@27ae2fd0</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user should not be able to login with invalid credentials", "Optional[User should be able to login into web application only with valid credentials]"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@27ae2fd0</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user should not be able to login with invalid credentials", "Optional[User should be able to login into web application only with valid credentials]"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@27ae2fd0</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user should get error in API response with invalid credentials", "Optional[User should only be able to login successfully with valid credentials for Api request]"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@27ae2fd0</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify invalid user should not be able to login via SSO", "Optional[User should be able to login into web application only with valid credentials]"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestRunner@27ae2fd0</td></tr>
+</table><p>
+</body>
+</html>
