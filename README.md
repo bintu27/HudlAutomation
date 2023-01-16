@@ -148,7 +148,7 @@ Update login user details in user.properties
   - Website back button functionality
 
 ***Bugs in Login functionality***
-1. Once user you logs out, he is navigated back to home page by pressing ‘Back button’ of the browser : **Client side validation missing** 
+1. Once user you logs out, he is navigated back to home page.On pressing ‘Back button’ of the browser, user is logged in again : **Client side validation missing** 
 2. Null is allowed input in reset password email field : **Client side & Server side validation missing** 
 3. There is no character limit on login Email and Password : **Client side & Server side validation missing**
 
